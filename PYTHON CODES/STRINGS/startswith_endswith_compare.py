@@ -1,0 +1,6 @@
+s = input()
+prefix = input()
+suffix = input()
+print(s.startswith(prefix))
+print(s.endswith(suffix))
+print(s > prefix)
